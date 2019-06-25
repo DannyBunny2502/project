@@ -1,5 +1,8 @@
 @charset "euc-kr";
 /*******************/
+
+
+
 /* @font-face {
     font-family:ng;
     font-weight:normal;
@@ -11,9 +14,9 @@
 
 /* reset */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{margin:0;padding:0}
-html{overflow:auto}/* ÇÃ·ÎÆÃ ¹è³Ê °ü·Ã ·¹ÀÌ¾Æ¿ô */
-body{overflow:hidden;position:relative;min-width:1100px}/* ÇÃ·ÎÆÃ ¹è³Ê °ü·Ã ·¹ÀÌ¾Æ¿ô */
-body,input,textarea,select,button,table{font-family:'³ª´®°íµñ','NanumGothic',ng,'µ¸¿ò',Dotum,'Apple SD Gothic Neo',sans-serif;font-size:12px;color:#333}
+html{overflow:auto}/* í”Œë¡œíŒ… ë°°ë„ˆ ê´€ë ¨ ë ˆì´ì•„ì›ƒ */
+body{overflow:hidden;position:relative;min-width:1100px}/* í”Œë¡œíŒ… ë°°ë„ˆ ê´€ë ¨ ë ˆì´ì•„ì›ƒ */
+body,input,textarea,select,button,table{font-family:'ë‚˜ëˆ”ê³ ë”•','NanumGothic',ng,'ë‹ì›€',Dotum,'Apple SD Gothic Neo',sans-serif;font-size:12px;color:#333}
 fieldset,img,button{border:0 none;vertical-align:top}
 table{border-collapse:collapse;border-spacing:0;table-layout:fixed}
 address,caption{font-style:normal;font-weight:normal}
@@ -37,10 +40,10 @@ hr{display:none}
 .service_tit,.logo_nhn,.ico_more,.ico_special_close,
 .game_online_tit,.game_mobile_tit,.ico_birth_bubble,.ico_paycoid_bubble,.ico_guide_close,.ico_new,.ico_adult,.logo_mix,.ico_pc,.ico_aos,.ico_ios,.ico_all,.login_google_txt,.login_facebook_txt,.ico_mobile,.pop_btn_close,.ico_event
 {display:inline-block;overflow:hidden;
-/* ¢¾¢¾¢¾  LOGO ¢¾¢¾¢¾*/
+/* â™¥â™¥â™¥  LOGO â™¥â™¥â™¥*/
 background:url(https://hangame-images.toastoven.net/hangame/nhn2019/sp.png) no-repeat;
-/* ¢¾¢¾¢¾  LOGO ¢¾¢¾¢¾*/
-font-size:1px;line-height:999px;vertical-align:top} /* sprite image °øÅë ½ºÅ¸ÀÏ */
+/* â™¥â™¥â™¥  LOGO â™¥â™¥â™¥*/
+font-size:1px;line-height:999px;vertical-align:top} /* sprite image ê³µí†µ ìŠ¤íƒ€ì¼ */
 
 /* tags */
 .tag_popular,.tag_new,.tag_recommend{width:36px;height:22px;position:absolute;top:-6px;left:-4px;z-index:30}
@@ -72,7 +75,7 @@ button.service_menu{*height:33px}
 .logo_ticketlink{width:48px;height:18px;margin-top:2px;background-position:0 -84px}
 .logo_comico{width:54px;height:13px;margin-top:-1px;background-position:0 -69px}
 
-/* header_main ¹àÀº ¹öÀü */
+/* header_main ë°ì€ ë²„ì „ */
 .header_main_light .logo_hangame{background-position:0 -200px}
 .header_main_light .service_menu{color:#fff}
 .header_main_light .logo_bugs{background-position:0 -182px}
@@ -120,7 +123,7 @@ button.service_menu{*height:33px}
 .paging_lst{position:absolute;bottom:15px;*bottom:13px;left:23px;*zoom:1}
 .paging_lst:after{display:block;clear:both;content:''}
 .paging_item{float:left}
-.paging_btn{padding:2px 1px 2px 2px;line-height:16px}/* Å©·Ò focus½Ã outline ¸ğ¾ç °ü·Ã line-height Ãß°¡ */
+.paging_btn{padding:2px 1px 2px 2px;line-height:16px}/* í¬ë¡¬ focusì‹œ outline ëª¨ì–‘ ê´€ë ¨ line-height ì¶”ê°€ */
 .ico_paging{position:relative;width:16px;height:16px;background-position:-92px -113px}
 .paging_item.is_active .ico_paging{background-position:-110px -113px}
 .wide_type{margin-top:-39px}
@@ -214,7 +217,7 @@ button.service_menu{*height:33px}
 .myinfo_name_link:hover,.myinfo_name_link:focus{text-decoration:underline}
 .myinfo_name_txt{margin-left:2px;font-size:11px;color:#848484}
 .myinfo_logout_btn{float:right;*height:22px}
-.myinfo_logout_txt,.myinfo_hcoin_txt{display:block;position:relative;width:50px;padding:4px 0 3px;*padding:5px 0 2px;padding:6px 0 1px\0;border:1px solid #dedede;font-family:'µ¸¿ò',Dotum,sans-serif;font-size:11px;color:#848484;letter-spacing:-1px;line-height:13px;text-align:center}
+.myinfo_logout_txt,.myinfo_hcoin_txt{display:block;position:relative;width:50px;padding:4px 0 3px;*padding:5px 0 2px;padding:6px 0 1px\0;border:1px solid #dedede;font-family:'ë‹ì›€',Dotum,sans-serif;font-size:11px;color:#848484;letter-spacing:-1px;line-height:13px;text-align:center}
 .myinfo_detail{margin-top:7px;padding-top:18px;border-top:1px solid #ececec}
 .myinfo_detail_lst{*zoom:1}
 .myinfo_detail_lst:after{display:block;clear:both;content:''}
@@ -303,7 +306,7 @@ button.service_menu{*height:33px}
 .col_type2 .card_tit{margin:9px 0 0 0;font-size:13px;font-weight:normal;letter-spacing:-1px;line-height:15px;text-align:center}
 .col_type1 .card_tit,.col_type1 .card_txt{white-space:nowrap}
 
-/* ÇÑ°ÔÀÓ ¸¸È­, ÇÑ°ÔÀÓ ¹Í½º */
+/* í•œê²Œì„ ë§Œí™”, í•œê²Œì„ ë¯¹ìŠ¤ */
 .hangame_section{padding-top:30px;*zoom:1}
 .hangame_section:after{display:block;clear:both;content:''}
 .plus_area{position:relative;min-height:273px;border:1px solid #dde3e7;background:#fff}
@@ -313,7 +316,7 @@ button.service_menu{*height:33px}
 .tit_link{display:inline-block;padding:16px 19px}
 .comic_tit,.mix_tit{display:inline-block;*display:inline;*zoom:1}
 
-/* ÇÑ°ÔÀÓ ¸¸È­ */
+/* í•œê²Œì„ ë§Œí™” */
 .logo_comic{width:123px;height:15px;background-position:-92px -156px}
 .comic_box{padding:21px 27px 0 31px}
 .comic_tab_box{position:absolute;top:0;right:32px;font-size:0}
@@ -334,7 +337,7 @@ button.service_menu{*height:33px}
 .ico_mobile{width:26px;height:26px;background-position:-50px -90px}
 .mobile_guide:hover .ico_mobile,.service_link:hover .ico_mobile{background-position:-56px -147px}
 
-/* ÇÑ°ÔÀÓ mix */
+/* í•œê²Œì„ mix */
 .logo_mix{width:124px;height:13px;background-position:-92px -173px}
 .mix_box{padding:20px 0 0 24px}
 .game_info_lst{*zoom:1;margin-left:-7px}
@@ -359,7 +362,7 @@ button.service_menu{*height:33px}
 /* footer */
 .bar{display:inline-block;width:1px;height:8px;background:#d0d0d0;vertical-align:middle}
 
-/* footer - ¼­ºñ½º ¹Ù·Î°¡±â */
+/* footer - ì„œë¹„ìŠ¤ ë°”ë¡œê°€ê¸° */
 .service_section{position:relative;background:#fff}
 .service_section .inner{padding:22px 0 23px}
 .service_tit{float:left;width:87px;height:14px;background-position:-92px -51px}
@@ -371,7 +374,7 @@ button.service_menu{*height:33px}
 .service_link .ico_mobile{position:absolute;right:-31px;top:-6px}
 .service_more_link{float:right;margin-right:2px;font-size:13px;color:#666;letter-spacing:-1px;line-height:14px}
 
-/* footer - Á¤º¸ */
+/* footer - ì •ë³´ */
 .info_section{border-top:1px solid #eeeff0;background:#fff}
 .info_section .inner{position:relative;padding:26px 0 51px}
 .info_area{padding-left:122px}
@@ -384,9 +387,9 @@ button.service_menu{*height:33px}
 .policy_link{color:#666;line-height:14px}
 .policy_link strong{font-weight:normal}
 
-/* °³ÀÎÁ¤º¸Ãë±Ş¹æÄ§ */
+/* ê°œì¸ì •ë³´ì·¨ê¸‰ë°©ì¹¨ */
 
-/* °³ÀÎÁ¤º¸Ãë±Ş¹æÄ§ */
+/* ê°œì¸ì •ë³´ì·¨ê¸‰ë°©ì¹¨ */
 .notice_dsc{margin-top:21px;color:#909090;line-height:18px}
 .info_lst{margin-top:13px;line-height:18px}
 .info_txt{color:#b4b4b4;line-height:16px}
@@ -397,7 +400,7 @@ button.service_menu{*height:33px}
 .copyright{color:#b4b4b4;font-family:'arial','verdana',dotum,sans-serif;margin-top:17px;font-size:12px}
 .copyright_link{color:#b4b4b4}
 
-/* È¸¿ø°³¹ßÆÀ ·Î±×ÀÎ ¿µ¿ª */
+/* íšŒì›ê°œë°œíŒ€ ë¡œê·¸ì¸ ì˜ì—­ */
 .ly_lgtxt_capslock{position:absolute;left:23px;top:153px;width:216px;height:31px;z-index:100;overflow:hidden}
 .ly_lgtxt_capslock img{width:100%;height:31px;background:url(https://hangame-images.toastoven.net/hangame/login/loginui/hancommon2011/ly_txt_capslock2.gif) 0 0 no-repeat}
 
@@ -405,7 +408,7 @@ button.service_menu{*height:33px}
 .ico_payco_bubble{width:216px;height:33px;margin-bottom:2px;text-align:center;letter-spacing:-0.05em;line-height:27px;background-image:url(https://hangame-images.toastoven.net/hangame/main2016/2017/img_payco_bubble_201804.png)}
 .ico_payco_bubble+.login_payco_link{margin-top:2px}
 
-/* ÀÌº¥Æ® ¹è³Ê·¹ÀÌ¾î */
+/* ì´ë²¤íŠ¸ ë°°ë„ˆë ˆì´ì–´ */
 .evt_pop_wrap{position:fixed;left:0;top:0;right:0;bottom:0;font-size:0;text-align:center;white-space:nowrap;z-index:200}
 .evt_pop_cont{position:relative;display:inline-block;*display:inline;width:819px;height:598px;vertical-align:middle;white-space:normal;*zoom:1}
 .pop_btn_close{position:absolute;right:57px;top:41px;width:22px;height:22px;background-position:-56px -175px}
